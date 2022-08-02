@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.After;
 import org.openqa.selenium.By;
 import pages.LoginPage;
 import io.cucumber.java.en.And;
@@ -77,7 +78,7 @@ public class LoginStepDefinition {
         Assert.assertEquals("https://the-internet.herokuapp.com/secure", driver.getCurrentUrl());
     }
 
-    @And("user close browser")
+   @After
     public void close_browser()
     {
         driver.quit();
