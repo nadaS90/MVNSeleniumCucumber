@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18f62337-f8a5-4987-acd2-4a6fc5798d1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/browsers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/features/Registration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStepDefinition.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CoOekCZUZiSK9CviJqTVQqCZHw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/NADA-FWD/Selenium/MVNSeleniumCucumber/src/main/features/Login.feature"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NADA-FWD\Selenium\MVNSeleniumCucumber\src\test" />
+      <recent name="D:\NADA-FWD\Selenium\MVNSeleniumCucumber\src\main" />
+      <recent name="D:\NADA-FWD\Selenium\MVNSeleniumCucumber\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NADA-FWD\Selenium\MVNSeleniumCucumber\src\main" />
+      <recent name="D:\NADA-FWD\Selenium\MVNSeleniumCucumber\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Scenario: user login with valid username and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MVNSeleniumCucumber" />
+      <option name="NAME_FILTER" value="^user login with valid username and password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user login with valid username and password$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: user login with valid username and password" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: user login with valid username and password" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18f62337-f8a5-4987-acd2-4a6fc5798d1c" name="Changes" comment="" />
+      <created>1659465570283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659465570283</updated>
+      <workItem from="1659465572591" duration="2500000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
