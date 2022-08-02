@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import org.openqa.selenium.By;
 import pages.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -35,24 +36,18 @@ public class LoginStepDefinition {
     public void user_navigate()
     {
         driver.navigate().to("https://the-internet.herokuapp.com/login");
-
-
     }
 
-    @When("user enter valid username and password")
-    public void valid_data()
+    @When("^user enter username and password \"(.*)\" and \"(.*)\"$")
+    public void valid_data(String username, String password)
     {
-        login.LoginSteps("tomsmith","SuperSecretPassword!");
-
-
+        login.LoginSteps(username,password);
     }
 
     @And("user click on login button")
     public void login_brn() throws InterruptedException {
         login.passwordPOM().sendKeys(Keys.ENTER);
         Thread.sleep(3000);
-
-
     }
 
     @Then("user could login successfully")
@@ -64,7 +59,15 @@ public class LoginStepDefinition {
         //Assert with Junit
         Assert.assertTrue(actualResult.contains(expectedResult));
         Assert.assertEquals(actualResult.contains(expectedResult), true);
+    }
 
+    @Then("user could not login")
+    public void error_msg()
+    {
+        String expectedResult = "Your username is invalid!";
+        String actualResult = driver.findElement(By.id("flash")).getText();
+        System.out.println("actual result: "+ actualResult);
+        Assert.assertTrue("Error Message: text not matching", actualResult.contains(expectedResult));
 
     }
 
@@ -72,8 +75,12 @@ public class LoginStepDefinition {
     public void home_page()
     {
         Assert.assertEquals("https://the-internet.herokuapp.com/secure", driver.getCurrentUrl());
+    }
 
-
+    @And("user close browser")
+    public void close_browser()
+    {
+        driver.quit();
     }
 
 }
