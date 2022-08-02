@@ -1,3 +1,4 @@
+@regression
 Feature: user should be able to log to the system
 
   Background: user open browser and go to login page

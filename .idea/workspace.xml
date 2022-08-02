@@ -5,14 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18f62337-f8a5-4987-acd2-4a6fc5798d1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/features/Registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/features/Registration.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +41,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/NADA-FWD/Selenium/MVNSeleniumCucumber/src/main/features/Login.feature"
+    "last_opened_file_path": "D:/NADA-FWD/Selenium/MVNSeleniumCucumber/src/main/features/Login.feature",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -46,7 +57,7 @@
       <recent name="D:\NADA-FWD\Selenium\MVNSeleniumCucumber\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Login">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/features/Login.feature" />
@@ -116,8 +127,24 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MVNSeleniumCucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Scenario: user login with valid username and password" />
         <item itemvalue="Cucumber Java.Scenario: user login with invalid username and password" />
@@ -132,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659465570283</updated>
-      <workItem from="1659465572591" duration="5987000" />
+      <workItem from="1659465572591" duration="11080000" />
     </task>
     <task id="LOCAL-00001" summary="Finish with test valid data">
       <created>1659468226048</created>
@@ -148,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659471211808</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Run both scenarios">
+      <created>1659472641216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659472641216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish with test valid data" />
     <MESSAGE value="Finish with test invalid data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish with test invalid data" />
+    <MESSAGE value="Run both scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Run both scenarios" />
   </component>
 </project>
